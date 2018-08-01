@@ -1,5 +1,5 @@
 var mysql = require("mysql");
-//var inquirer = require("inquirer");
+var inquirer = require("inquirer");
 
 var connection = mysql.createConnection({
   host: "localhost",
@@ -40,4 +40,13 @@ connection.connect(function(err) {
           );
 
       }
-  }
+  };
+
+  inquirer.prompt([
+
+    {
+      type: "input",
+      name: "id",
+      message: "What is the ID of the item you would like to purchase?"
+    },
+  ])
