@@ -32,7 +32,7 @@ connection.connect(function(err) {
       console.log('Products');
       for (var i = 0; i < products.length; i++){
         console.log(
-            "Product ID: " + products[i].item_id +
+            "Product ID: " + products[i].id +
             " | Product: " + products[i].product_name +
             " | Department: " + products[i].department_name +
             " | Price: " + products[i].price +
