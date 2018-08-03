@@ -12,4 +12,4 @@ Format: ![Alt Text](url)
 ![GitHub Logo](/screenshot2.JPG)
 Format: ![Alt Text](url)
 
-https://github.com/snadeem1/Bamazon 
+https://snadeem1.github.io/Bamazon/
